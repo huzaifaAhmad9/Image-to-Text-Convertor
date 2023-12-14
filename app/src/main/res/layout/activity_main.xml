@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:cardElevation="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        app:cardCornerRadius="20dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/baa">
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:textSize="40sp"
+        android:layout_height="wrap_content"
+        android:text="IMAGE TO TEXT"
+        android:fontFamily="@font/custom_font"
+        android:textColor="@color/white"/>
+
+<Button
+    android:layout_width="250dp"
+    android:layout_height="60dp"
+    android:backgroundTint="@color/pink"
+    android:text="GET STARTED"
+    android:textSize="20sp"
+    android:textStyle="italic"
+    android:layout_gravity="center"
+    android:layout_marginTop="130dp"
+    android:id="@+id/btn"/>
+
+
+
+</LinearLayout>
